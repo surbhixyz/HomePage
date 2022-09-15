@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 2px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #d3e6bf;
+}
+
+.b1 {
+    margin-left: 45%;
+    font-size: 15px;
+    font-family: Arial;
+    width: 20%;
+    height: 50px;
+    border-width: 1px;
+    color: #fff;
+    border-color: rgba(28, 37, 24, 1);
+    font-weight: bold;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: inset 0px 1px 0px 0px #659252;
+    background: linear-gradient(#2c5c15, #68a54b);
+    border-radius: 30px;
+}
+
+.b1:hover {
+    background: linear-gradient(#68a54b, #74ad5a);
+}
+
+.carousel-inner {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.grid-container {
+    margin-left: 5%;
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding: 20px;
+}
+
+.grid-container>div {
+    background-color: #9cc39c;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    padding: 20px 10px;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.space {
+    margin-top: 7%;
+}
+
+.width {
+    width: 350px;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.box{
+    display:flex;
+  flex-direction:row;
+  margin-top: 10%;
+  background-color: #9cc39cb0;
+justify-content: center;
+  
+
+}
+
+.mate{
+    padding:20px;
+}
+
